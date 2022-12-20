@@ -11,13 +11,15 @@
 
 # scope
 
-# x = 5
-# def scope():
-#     print(x)
-# def scope1():
-#     global x
-#     x = 6
-#     print(x)
-# scope()
-# scope1()
-# print(x)
+x = 5
+def scope():
+    print(x)
+def scope1():
+    global x
+    x = 6
+    print(x)
+scope()
+scope1()
+print(x)
+
+
