@@ -1,10 +1,12 @@
 
 ##################
+import list as listt
 
+print(listt.l)
 # range
 #
-print(list(range(5)))
 #
+print(list(range(5)))
 # print(list(range(5,8,2)))
 #
 # for i in range(10,0,-2):
